@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-
+//hii
 const routes = [
   {
     path: "/",
