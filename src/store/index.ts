@@ -25,7 +25,6 @@ export function useStore() {
   return baseUseStore();
 }
 
-// whatsup :)
 if (import.meta.hot) {
   import.meta.hot?.accept(Object.keys(context), () => {
     const { modules } = loadModules();
@@ -36,5 +35,3 @@ if (import.meta.hot) {
 }
 
 export default store;
-
-//check12
