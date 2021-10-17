@@ -12,47 +12,7 @@
     </nav>
 
     <div class="container2">
-      <div class="gallery">
-        <div
-          v-for="(img, idx) in imgs"
-          :key="idx"
-          class="pic"
-          @click="() => show(idx)"
-        >
-          <img :src="img.src ? img.src : img" />
-        </div>
-
-        <h1 class="title">Hiii</h1>
-        <Logo />
-        <div class="links">
-          <a
-            href="./myposts"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          >
-            My Posts
-          </a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          >
-            GitHub
-          </a>
-        </div>
-        <client-only>
-          <vue-easy-lightbox
-            :visible="visible"
-            :index="index"
-            :imgs="imgs"
-            @hide="visible = false"
-            @on-prev="handlePrev"
-            @on-next="handleNext"
-          />
-        </client-only>
-      </div>
+     
     </div>
   </div>
 

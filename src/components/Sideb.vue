@@ -12,9 +12,7 @@
     </transition>
   </div>
 </template>
-import { loadModules, context, modules } from "./modules"; import { createStore,
-useStore as baseUseStore, Store, createLogger, } from "vuex";
-<script setup lang="ts">
+<script lang=ts>
 import { store, mutations } from "./Store";
 export default {
   methods: {
