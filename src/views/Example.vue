@@ -46,7 +46,6 @@ function changeLanguage() {
 function handleSizeChange(val: number) {
   elPageSize.value = val;
 }
-//check12
 
 function handleCurrentChange(val: number) {
   elCPage.value = val;
@@ -103,4 +102,5 @@ Base.NetBase.sget<{ text: string }>("./api.json").then((res) => {
     clearTimeout(timer3);
   }, 5000);
 });
+//check12
 </script>
